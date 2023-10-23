@@ -1,213 +1,194 @@
 body {
-    background-color: #1a424d;
-   
-    
+  background-color: #1a424d;
 }
 
-/* Untuk layar berukuran kecil, misalnya perangkat seluler */
-@media (max-width: 767px) {
-    .navbar-nav {
-      text-align: center; /* Pusatkan teks pada layar kecil */
-    }
-  
-    .nav-item {
-      margin: 10px 0; /* Berikan margin antara item pada layar kecil */
-    }
-  
-    .nav-link {
-      text-align: center; /* Pusatkan teks pada layar kecil */
-      margin: 10px 0; /* Berikan margin antara tautan pada layar kecil */
-    }
-  }
-  
+.navbar-nav {
+  text-align: center;
+}
+
+.navbar-nav .nav-item {
+  margin: 10px 0;
 }
 
 .nav-link:hover {
-    color: white; /* Ubah warna teks saat dihover */
-    transition: color 0.3s; /* Animasi perubahan warna */
-  }
+  color: white; /* Ubah warna teks saat dihover */
+  transition: color 0.3s; /* Animasi perubahan warna */
+}
 .nav-link {
-    color: #00d9c0;
+  color: #00d9c0;
 }
 
 .jumbotron {
-    display: flex;
-    justify-content: space-between;
-    background-color: rgb(0, 217, 192);
-    align-items: center;
-    padding: 2rem;
-    margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(0, 217, 192);
+  align-items: center;
+  height: 270px;
+  padding: 2rem;
+  margin-top: 70px;
 }
 
 .content {
-    display: flex;
-    align-items: center;
-    text-align: center; /* Tambahkan penyesuaian teks untuk layar kecil */
-    flex-direction: column; /* Ubah arah kolom untuk tampilan mobile */
+  display: flex;
+  align-items: center;
 }
 
 .text1 {
-    font-family: 'Tajawal';
-    margin-right: 0; /* Hapus margin kanan */
-    text-align: center; /* Pusatkan teks pada layar kecil */
+  font-family: 'Tajawal';
+  margin-right: 200px;
+  text-align: right;
 }
 
 @media (max-width: 768px) {
-    .jumbotron {
-        flex-direction: column;
-        height: auto;
-    }
+  .jumbotron {
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+  }
+
+  .content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .text1 {
+    text-align: center;
+    margin-right: 0;
+  }
 }
 
-
-
 .social-media {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #00d9c0;
   margin-top: -50px;
-  }
-  
-  .social-icons {
-    text-align: center;
-    background-color: #00d9c0;
-    padding: 20px;
-    border-radius: 10px;
-  }
-  
-  .social-icons h2 {
-    color: #1a424d;
-    font-family: 'Tajawal';
-  }
-  
-  .social-icons-container {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .social-icon {
-    margin: 0 50px;
-    padding: 10px;
-    border: 2px solid #1a424d;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 40px;
-    height: 40px;
-    font-size: 20px;
-    text-decoration: none;
-    color: #1a424d;
-  }
+}
 
-  .social-icon:hover {
-    color: white; 
-    border-color: white;
-  }
+.social-icons {
+  text-align: center;
+  background-color: #00d9c0;
+  padding: 20px;
+  border-radius: 10px;
+}
 
-  
+.social-icons h2 {
+  color: #1a424d;
+  font-family: 'Tajawal';
+}
+
+.social-icons-container {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icon {
+  margin: 0 50px;
+  padding: 10px;
+  border: 2px solid #1a424d;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  text-decoration: none;
+  color: #1a424d;
+}
+
+.social-icon:hover {
+  color: white;
+  border-color: white;
+}
+
 .display-4 {
   margin-left: 30px;
   margin-bottom: 10px;
 }
 
-.welcome{
-    margin-right:300px;
-    margin-top: 45px;
-    color: #1a424d;
+.welcome {
+  margin-right: 300px;
+  margin-top: 45px;
+  color: #1a424d;
 }
 
 .lead {
- 
-    margin-top: 0%;
-    margin-bottom: 50px;
-  
+  margin-top: 0%;
+  margin-bottom: 50px;
 }
 
 .rounded-circle {
-    background-color: #1a424d;
-    margin-left: 35px;
+  background-color: #1a424d;
+  margin-left: 35px;
 }
 
 .navbar-brand {
-    font-family: 'Tajawal';
+  font-family: 'Tajawal';
 }
 .navbar-collapse {
-    font-family: 'Tajawal';
+  font-family: 'Tajawal';
 }
 
 .about {
-    color: rgb(0, 217, 192);
-    min-height: 30px;
-    margin-top: 40px;
-    font-family: 'Kalam';
+  color: rgb(0, 217, 192);
+  min-height: 30px;
+  margin-top: 40px;
+  font-family: 'Kalam';
 }
 
 .col-5 {
-    color: rgb(0, 217, 192);
-    margin-bottom: 150px;
-     margin: 40;
-    margin-top: 50px;
-    font-family: 'Kalam';
+  color: rgb(0, 217, 192);
+  margin-bottom: 150px;
+  margin: 40;
+  margin-top: 50px;
+  font-family: 'Kalam';
 }
 
 #achievement {
-    background-color: rgb(0, 217, 192);
-    font-family: 'Tajawal';
+  background-color: rgb(0, 217, 192);
+  font-family: 'Tajawal';
 }
 
 .tulisan-achievement {
-    margin-bottom: 50px;
-    
+  margin-bottom: 50px;
 }
- 
+
 .card-img-top {
-    max-width: 100%;
-    height: auto;
-    margin: 0 auto; 
-    box-sizing: border-box #1a424d; 
-    border: 2px solid #1a424d; 
-    object-fit: cover;
-    border-radius: 15px 15px 0px 0px;
-  }
-  
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  box-sizing: border-box #1a424d;
+  border: 2px solid #1a424d;
+  object-fit: cover;
+  border-radius: 15px 15px 0px 0px;
+}
 
-  .card-body {
-    background-color: #1a424d;
-    font-family: 'Tajawal';
-    border-radius: 0px 0px 20px 20px;
-    
-  }
+.card-body {
+  background-color: #1a424d;
+  font-family: 'Tajawal';
+  border-radius: 0px 0px 20px 20px;
+}
 
-  .card {
-    background-color: transparent;
-  }
+.card {
+  background-color: transparent;
+}
 
 #contact {
-    color: #00d9c0;
-    font-family: 'Tajawal';
+  color: #00d9c0;
+  font-family: 'Tajawal';
 }
 
-
-
 .p1 a:hover {
-    font-family: 'Kalam';
-    color: #ffffff;
-    size: 20px;
-    
+  font-family: 'Kalam';
+  color: #ffffff;
+  size: 20px;
 }
 
 .p1 a {
-    color: #1a424d;
-    
-  
+  color: #1a424d;
 }
 
 .p1 {
-    font-size: 18px;
+  font-size: 18px;
 }
-
-
-  
-

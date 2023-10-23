@@ -80,6 +80,11 @@ body {
   display: flex;
   justify-content: center;
 }
+@media (max-width: 768px) {
+    .social-icons-container {
+      flex-wrap: wrap; /* Ketika layar lebih kecil, ikon sosial media akan pindah ke baris baru */
+    }
+}
 
 .social-icon {
   border: 2px solid #1a424d;

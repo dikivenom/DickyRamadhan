@@ -1,0 +1,11 @@
+FONT: 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Borel&family=Pixelify+Sans&family=Tajawal:wght@800&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Borel&family=Kalam:wght@300;400&family=Pixelify+Sans&family=Tajawal:wght@800&display=swap" rel="stylesheet">
+
+COLOR : 
+#00d9c0

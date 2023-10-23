@@ -68,7 +68,6 @@ body {
 .social-icons {
   text-align: center;
   background-color: #00d9c0;
-  padding: 20px;
   border-radius: 10px;
 }
 
@@ -83,8 +82,6 @@ body {
 }
 
 .social-icon {
-  margin: 0 50px;
-  padding: 10px;
   border: 2px solid #1a424d;
   border-radius: 50%;
   display: flex;

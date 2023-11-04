@@ -6,13 +6,17 @@ body {
   text-align: center;
 }
 
+
+
 .navbar-nav .nav-item {
   margin: 10px 0;
 }
 
+
+
 .nav-link:hover {
-  color: white; /* Ubah warna teks saat dihover */
-  transition: color 0.3s; /* Animasi perubahan warna */
+  color: white;
+  transition: color 0.3s; 
 }
 .nav-link {
   color: #00d9c0;
@@ -97,6 +101,7 @@ body {
   font-size: 20px;
   text-decoration: none;
   color: #1a424d;
+  margin-left: 15px;
 }
 
 .social-icon:hover {
@@ -110,14 +115,14 @@ body {
 }
 
 .welcome {
-  margin-right: 300px;
-  margin-top: 45px;
+  margin-right: 10%; /* Ubah margin-right ke 10% dari lebar elemen yang mengandungnya */
+  margin-top: 2vh; /* Ubah margin-top ke 2% dari tinggi viewport */
   color: #1a424d;
 }
 
 .lead {
-  margin-top: 0%;
-  margin-bottom: 50px;
+  margin-top: 0;
+  margin-bottom: 5%; /* Ubah margin-bottom ke 5% dari lebar elemen yang mengandungnya */
 }
 
 .rounded-circle {
@@ -156,6 +161,19 @@ body {
   margin-bottom: 50px;
 }
 
+#skill { 
+  background-color: rgb(0, 217, 192);
+  font-family: 'Tajawal';
+}
+.text-skill {
+  color:rgb(0, 217, 192);
+  font-family: 'Tajawal';
+  margin-bottom: 50px;
+}
+.skill {
+  margin-bottom: 8%;
+}
+
 .card-img-top {
   max-width: 100%;
   height: auto;
@@ -177,7 +195,8 @@ body {
 }
 
 #contact {
-  color: #00d9c0;
+  background-color: #00d9c0;
+  color: #1a424d;
   font-family: 'Tajawal';
 }
 
@@ -188,7 +207,7 @@ body {
 }
 
 .p1 a {
-  color: #1a424d;
+  color: #00d9c0;
 }
 
 .p1 {

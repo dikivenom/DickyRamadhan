@@ -2,17 +2,31 @@ body {
   background-color: #1a424d;
 }
 
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 500;
+  background-color: #1a424d;
+  padding-bottom: auto;
+
+}
+
+/* Media query untuk layar berukuran kecil (contoh: layar seluler) */
+@media (max-width: 768px) {
+  .navbar {
+    position: static; /* Mengubah posisi menjadi statis agar tidak fixed */
+    background-color: transparent; /* Hapus latar belakang agar transparan */
+    /* Tambahkan properti CSS lainnya untuk tampilan seluler */
+  }
+}
+
+
 .navbar-nav {
   text-align: center;
+ 
 }
-
-
-
-.navbar-nav .nav-item {
-  margin: 10px 0;
-}
-
-
 
 .nav-link:hover {
   color: white;
@@ -29,7 +43,9 @@ body {
   align-items: center;
   height: 270px;
   padding: 2rem;
-  margin-top: 70px;
+  margin-top: auto;
+  padding-top: 100px;
+  margin-left: auto;
 }
 
 .content {
@@ -142,15 +158,24 @@ body {
   min-height: 30px;
   margin-top: 40px;
   font-family: 'Kalam';
+ 
 }
 
 .col-5 {
   color: rgb(0, 217, 192);
-  margin-bottom: 150px;
-  margin: 40;
-  margin-top: 50px;
+  margin-bottom: 20px; /* Mengurangi margin untuk tampilan responsif */
+  margin-top: 20px; /* Mengurangi margin untuk tampilan responsif */
   font-family: 'Kalam';
 }
+
+/* Penyesuaian untuk tampilan layar kecil */
+@media (max-width: 768px) {
+  .col-5 {
+    margin-bottom: 10px; /* Menyesuaikan margin untuk layar kecil */
+    margin-top: 10px; /* Menyesuaikan margin untuk layar kecil */
+  }
+}
+
 
 #achievement {
   background-color: rgb(0, 217, 192);
@@ -207,7 +232,7 @@ body {
 }
 
 .p1 a {
-  color: #00d9c0;
+  color: #1ff7de;
 }
 
 .p1 {

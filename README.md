@@ -1,2 +1,2 @@
 # DickyRamadhan.github.io
-Portofolio ku
+Nyoba bikin Portofolio
